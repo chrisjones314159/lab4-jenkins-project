@@ -1,5 +1,5 @@
 pipeline {
-  agent { agent { label 'agent' } }
+  agent { label 'agent' }
   stages {
     stage('Cleanup') {
       steps {
